@@ -3,7 +3,7 @@
     "description": "同步菜单信息",
     "type": "library",
     "require": {
-        "guzzlehttp/guzzle": "6.0"
+        "guzzlehttp/guzzle": "^6.0"
     },
     "license": "MIT",
     "autoload": {
