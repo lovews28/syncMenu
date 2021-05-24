@@ -11,6 +11,13 @@
             "Ws\\SyncMenu\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ws\\SyncMenu\\SyncMenuServiceProvider"
+            ]
+        }
+    },
     "authors": [
         {
             "name": "kobe.wang",
