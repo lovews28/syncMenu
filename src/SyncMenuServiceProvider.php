@@ -23,8 +23,9 @@ class SyncMenuServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
+            __DIR__.'/storage/menu-template' => storage_path('menu-template'),
             __DIR__.'/database/migrations' => database_path('migrations'),
-            __DIR__.'/config/menu.php' => config_path('menu.php'), // 发布配置文件到 laravel 的config 下
+            __DIR__.'/config/' => config_path(), // 发布配置文件到 laravel 的config 下
 
         ]);
     }
